@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&subset=latin-ext');
+
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0 auto;
+	font-family: 'Noto Sans', sans-serif;
+	background-color: #729667;
+}
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 100vh;
+	background-color: #a5e094;
+}
+.board h1 {
+	font-size: 35px;
+	text-align: center;
+	color: grey;
+	margin-top: 0;
+	padding: 25px 0;
+}
+button.create-column {
+	display: block;
+	width: 200px;
+	color: white;
+	padding:5px 20px;
+	font-size: 20px;
+	cursor: pointer;
+	margin: 30px auto;
+	border-radius: 10px;
+	border: 1px solid #d74b60;
+	background-color: #ef5f73;
+}
+button.create-column:hover {
+	background-color: #d74b60; 
+}
+.column {
+	float: left;
+	width: 31%;
+	margin: 1.1%;
+	background-color: #d8d8d8;
+	text-align: center;	
+	border-radius: 10px;
+}
+.column-title {
+	display: inline-block;
+	color: grey;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+button.btn-delete {
+	background: #ef5f73;
+	border: 1px solid #d74b60;
+	width: 30px;
+	line-height: 25px;
+	border-radius: 50%;
+	margin: 5px 5px 5px 20px;
+	color: white;
+	cursor: pointer;
+	font-size: 20px;
+}
+button.btn-delete:hover {
+	background-color: #d74b60;
+}
+button.add-card {
+	background: #ef5f73;
+	border: 1px solid #d74b60;
+	color: white;
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+	cursor: pointer;
+} 
+button.add-card:hover {
+	background-color: #d74b60;
+}
+li.card {
+	list-style-type: none;
+}
+button.left {
+	float: left;
+}
+p.card-description {
+	background-color: #208c00;
+	padding: 15px;
+	cursor: pointer;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 10px;
+	margin: 15px;
+}
+ul.column-card-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	min-height: 200px;
+}
