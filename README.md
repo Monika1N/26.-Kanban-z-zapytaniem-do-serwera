@@ -1,1 +1,1 @@
-# Zadanie-11.6-Budujemy-nasz-maly-kanban
+# Zadanie-12.7-Ozywiamy-kanban
