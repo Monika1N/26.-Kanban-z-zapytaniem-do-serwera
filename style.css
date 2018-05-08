@@ -65,7 +65,7 @@ button.btn-delete {
 button.btn-delete:hover {
 	background-color: #d74b60;
 }
-button.add-card {
+button.column-add-card {
 	background: #ef5f73;
 	border: 1px solid #d74b60;
 	color: white;
@@ -74,11 +74,17 @@ button.add-card {
 	border-radius: 10px;
 	cursor: pointer;
 } 
-button.add-card:hover {
+button.btn-card{
+	position: absolute;
+	left: 0;
+	top:0;
+}
+button.column-add-card:hover {
 	background-color: #d74b60;
 }
 li.card {
 	list-style-type: none;
+	position: relative;
 }
 button.left {
 	float: left;
@@ -92,7 +98,7 @@ p.card-description {
 	border-radius: 10px;
 	margin: 15px;
 }
-ul.column-card-list {
+ul.card-list {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
