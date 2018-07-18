@@ -1,2 +1,2 @@
-# Zadanie-12.7-Ozywiamy-kanban
-https://monika1n.github.io/Zadanie-12.7-Ozywiamy-kanban/ 
+# Kanban z zapytaniem do serwera
+https://monika1n.github.io/26.-Kanban-z-zapytaniem-do-serwera/
